@@ -92,6 +92,7 @@ It uses the GBIF Literature API to extract topics associated with each Digital O
 
 - **Data Input:**
   - **CSV File (`allDOIs.csv`)**: A CSV file containing a list of DOIs that reference GBIF data. This file is used as the source for querying the literature API.
+  - `allDOIs.csv` is created from `output_data.csv` using awk: awk -F',' '!seen[$5]++ { print $5 }' filename.csv > unique_dois.txt
 
 #### 3. **Procedure**
 
