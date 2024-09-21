@@ -1,4 +1,5 @@
-# linkLitToGbifId
+## Description of the `linkLitToGbifId.ipynb`
+# Script: Collect, Filter, and Process Cited Scientific Data
 
 #### 1. **Objective**
 To systematically collect, filter, and process cited scientific data from the Global Biodiversity Information Facility (GBIF) literature API. The focus is on obtaining literature that has cited GBIF data and ensuring only relevant and peer-reviewed sources are included.
@@ -73,3 +74,69 @@ Because the files are so large it is likely that the process will be interupted 
 - **Filtered Entries File:** `filtered_gbif_entries.json` containing all relevant entries with `gbifDownloadKey`.
 - **Output CSV File:** `output_data.csv` with filtered and processed data of preserved specimens.
 - **Error Log File:** `error_log.txt` documenting any errors encountered during processing.
+
+## Description of the `GBIFLitTopicsAnalysis.ipynb`
+#Script: Topic Analysis and Network Visualization of GBIF Literature
+
+#### 1. **Objective**
+To analyze and visualize the thematic topics present in the literature that reference specimens in GBIF.
+It uses the GBIF Literature API to extract topics associated with each Digital Object Identifier (DOI) and constructs a network graph representing the co-occurrence of these topics.
+
+#### 2. **Materials and Tools**
+- **Python Libraries:**
+  - `requests`: For querying the GBIF Literature API.
+  - `pandas`: For handling and processing CSV data.
+  - `networkx`: For constructing and analyzing the topic co-occurrence network.
+  - `matplotlib`: For visualizing the topic network graph.
+  - `tqdm.notebook`: For providing progress bars during data processing.
+
+- **Data Input:**
+  - **CSV File (`allDOIs.csv`)**: A CSV file containing a list of DOIs that reference GBIF data. This file is used as the source for querying the literature API.
+
+#### 3. **Procedure**
+
+##### 3.1 **Data Acquisition**
+- **Querying the GBIF Literature API:**
+  - A function `query_gbif_literature(doi)` is defined to fetch literature data from the GBIF API using a given DOI.
+  - The function returns the JSON response if the request is successful; otherwise, it prints an error message.
+
+##### 3.2 **Data Extraction and Processing**
+1. **Extract Topics:**
+   - The function `extract_topics(data)` processes the API response to extract thematic topics associated with each literature entry.
+   - Topics are extracted if they exist in the results; otherwise, a message is printed indicating the absence of topics.
+
+2. **Read DOIs from CSV:**
+   - The script reads the `allDOIs.csv` file using `pandas` to obtain a list of DOIs for further processing.
+
+3. **Topic Count and Co-occurrence Analysis:**
+   - The script iterates through each DOI, querying the GBIF API and extracting topics.
+   - It maintains two dictionaries:
+     - `topic_counts`: Tracks the frequency of each unique topic.
+     - `topic_cooccurrences`: Tracks how often pairs of topics co-occur within the same literature entry.
+
+##### 3.3 **Network Graph Construction**
+1. **Create Network Graph:**
+   - A network graph `G` is created using the `networkx` library.
+   - **Nodes:** Represent unique topics. The size of each node is proportional to the count of the topic in the literature.
+   - **Edges:** Represent co-occurrences between topics. The weight of each edge corresponds to the number of times the topics co-occurred.
+
+2. **Add Nodes and Edges:**
+   - Nodes are added to the graph with attributes such as size and count.
+   - Edges are added between topics based on their co-occurrence frequency.
+
+##### 3.4 **Network Graph Export**
+- The constructed topic network is saved in the `GraphML` format (`topic_network.graphml`). This format allows for further analysis and visualization using various graph tools.
+
+##### 3.5 **Network Visualization (Optional)**
+1. **Visualize Network:**
+   - The graph is visualized using `matplotlib`.
+   - The size of each node in the visualization is scaled according to its count attribute.
+   - Nodes are colored, and edges are drawn with varying thickness based on their weights.
+
+2. **Plot Configuration:**
+   - A spring layout is used to arrange the nodes for better visualization.
+   - Node size, font size, and colors are customized for readability.
+
+#### 4. **Outputs**
+- **Network Graph File:** `topic_network.graphml` containing the constructed topic network with nodes and edges.
+- **Visual Plot:** A visual representation of the topic network is optionally displayed, showing the structure and connections between topics.
