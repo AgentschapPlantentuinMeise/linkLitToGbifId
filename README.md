@@ -1,5 +1,5 @@
-## Description of the `linkLitToGbifId.ipynb`
-# Script: Collect, Filter, and Process Cited Scientific Data
+# Description of the `linkLitToGbifId.ipynb`
+## Script: Collect, Filter, and Process Cited Scientific Data
 
 #### 1. **Objective**
 To systematically collect, filter, and process cited scientific data from the Global Biodiversity Information Facility (GBIF) literature API. The focus is on obtaining literature that has cited GBIF data and ensuring only relevant and peer-reviewed sources are included.
@@ -75,8 +75,8 @@ Because the files are so large it is likely that the process will be interupted 
 - **Output CSV File:** `output_data.csv` with filtered and processed data of preserved specimens.
 - **Error Log File:** `error_log.txt` documenting any errors encountered during processing.
 
-## Description of the `GBIFLitTopicsAnalysis.ipynb`
-#Script: Topic Analysis and Network Visualization of GBIF Literature
+# Description of the `GBIFLitTopicsAnalysis.ipynb`
+## Script: Topic Analysis and Network Visualization of GBIF Literature
 
 #### 1. **Objective**
 To analyze and visualize the thematic topics present in the literature that reference specimens in GBIF.
