@@ -1,0 +1,398 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d1" for="node" attr.name="count" attr.type="long"/>
+<key id="d0" for="node" attr.name="size" attr.type="long"/>
+<graph edgedefault="undirected"><node id="ECOLOGY">
+  <data key="d0">997</data>
+  <data key="d1">997</data>
+</node>
+<node id="AGRICULTURE">
+  <data key="d0">172</data>
+  <data key="d1">172</data>
+</node>
+<node id="HUMAN_HEALTH">
+  <data key="d0">131</data>
+  <data key="d1">131</data>
+</node>
+<node id="MARINE">
+  <data key="d0">93</data>
+  <data key="d1">93</data>
+</node>
+<node id="TAXONOMY">
+  <data key="d0">273</data>
+  <data key="d1">273</data>
+</node>
+<node id="PHYLOGENETICS">
+  <data key="d0">167</data>
+  <data key="d1">167</data>
+</node>
+<node id="EVOLUTION">
+  <data key="d0">357</data>
+  <data key="d1">357</data>
+</node>
+<node id="BIOGEOGRAPHY">
+  <data key="d0">266</data>
+  <data key="d1">266</data>
+</node>
+<node id="CLIMATE_CHANGE">
+  <data key="d0">641</data>
+  <data key="d1">641</data>
+</node>
+<node id="CONSERVATION">
+  <data key="d0">398</data>
+  <data key="d1">398</data>
+</node>
+<node id="SPECIES_DISTRIBUTIONS">
+  <data key="d0">379</data>
+  <data key="d1">379</data>
+</node>
+<node id="INVASIVES">
+  <data key="d0">462</data>
+  <data key="d1">462</data>
+</node>
+<node id="BIODIVERSITY_SCIENCE">
+  <data key="d0">151</data>
+  <data key="d1">151</data>
+</node>
+<node id="FRESHWATER">
+  <data key="d0">38</data>
+  <data key="d1">38</data>
+</node>
+<node id="CITIZEN_SCIENCE">
+  <data key="d0">34</data>
+  <data key="d1">34</data>
+</node>
+<node id="ECOSYSTEM_SERVICES">
+  <data key="d0">26</data>
+  <data key="d1">26</data>
+</node>
+<node id="DATA_MANAGEMENT">
+  <data key="d0">12</data>
+  <data key="d1">12</data>
+</node>
+<node id="DATA_PAPER">
+  <data key="d0">15</data>
+  <data key="d1">15</data>
+</node>
+<edge source="ECOLOGY" target="EVOLUTION">
+  <data key="d2">190</data>
+</edge>
+<edge source="ECOLOGY" target="CLIMATE_CHANGE">
+  <data key="d2">117</data>
+</edge>
+<edge source="ECOLOGY" target="SPECIES_DISTRIBUTIONS">
+  <data key="d2">99</data>
+</edge>
+<edge source="ECOLOGY" target="BIOGEOGRAPHY">
+  <data key="d2">89</data>
+</edge>
+<edge source="ECOLOGY" target="MARINE">
+  <data key="d2">26</data>
+</edge>
+<edge source="ECOLOGY" target="INVASIVES">
+  <data key="d2">86</data>
+</edge>
+<edge source="ECOLOGY" target="TAXONOMY">
+  <data key="d2">37</data>
+</edge>
+<edge source="ECOLOGY" target="AGRICULTURE">
+  <data key="d2">19</data>
+</edge>
+<edge source="ECOLOGY" target="BIODIVERSITY_SCIENCE">
+  <data key="d2">29</data>
+</edge>
+<edge source="ECOLOGY" target="PHYLOGENETICS">
+  <data key="d2">31</data>
+</edge>
+<edge source="ECOLOGY" target="CONSERVATION">
+  <data key="d2">89</data>
+</edge>
+<edge source="ECOLOGY" target="HUMAN_HEALTH">
+  <data key="d2">19</data>
+</edge>
+<edge source="ECOLOGY" target="ECOSYSTEM_SERVICES">
+  <data key="d2">10</data>
+</edge>
+<edge source="ECOLOGY" target="FRESHWATER">
+  <data key="d2">10</data>
+</edge>
+<edge source="ECOLOGY" target="CITIZEN_SCIENCE">
+  <data key="d2">9</data>
+</edge>
+<edge source="ECOLOGY" target="DATA_PAPER">
+  <data key="d2">1</data>
+</edge>
+<edge source="AGRICULTURE" target="HUMAN_HEALTH">
+  <data key="d2">5</data>
+</edge>
+<edge source="AGRICULTURE" target="INVASIVES">
+  <data key="d2">23</data>
+</edge>
+<edge source="AGRICULTURE" target="CONSERVATION">
+  <data key="d2">15</data>
+</edge>
+<edge source="AGRICULTURE" target="CLIMATE_CHANGE">
+  <data key="d2">32</data>
+</edge>
+<edge source="AGRICULTURE" target="EVOLUTION">
+  <data key="d2">6</data>
+</edge>
+<edge source="AGRICULTURE" target="MARINE">
+  <data key="d2">5</data>
+</edge>
+<edge source="AGRICULTURE" target="SPECIES_DISTRIBUTIONS">
+  <data key="d2">2</data>
+</edge>
+<edge source="AGRICULTURE" target="TAXONOMY">
+  <data key="d2">2</data>
+</edge>
+<edge source="AGRICULTURE" target="CITIZEN_SCIENCE">
+  <data key="d2">1</data>
+</edge>
+<edge source="AGRICULTURE" target="ECOSYSTEM_SERVICES">
+  <data key="d2">1</data>
+</edge>
+<edge source="AGRICULTURE" target="BIOGEOGRAPHY">
+  <data key="d2">1</data>
+</edge>
+<edge source="AGRICULTURE" target="FRESHWATER">
+  <data key="d2">1</data>
+</edge>
+<edge source="HUMAN_HEALTH" target="SPECIES_DISTRIBUTIONS">
+  <data key="d2">3</data>
+</edge>
+<edge source="HUMAN_HEALTH" target="CITIZEN_SCIENCE">
+  <data key="d2">1</data>
+</edge>
+<edge source="HUMAN_HEALTH" target="BIODIVERSITY_SCIENCE">
+  <data key="d2">1</data>
+</edge>
+<edge source="HUMAN_HEALTH" target="CLIMATE_CHANGE">
+  <data key="d2">17</data>
+</edge>
+<edge source="HUMAN_HEALTH" target="INVASIVES">
+  <data key="d2">5</data>
+</edge>
+<edge source="HUMAN_HEALTH" target="FRESHWATER">
+  <data key="d2">1</data>
+</edge>
+<edge source="HUMAN_HEALTH" target="PHYLOGENETICS">
+  <data key="d2">1</data>
+</edge>
+<edge source="HUMAN_HEALTH" target="TAXONOMY">
+  <data key="d2">3</data>
+</edge>
+<edge source="HUMAN_HEALTH" target="CONSERVATION">
+  <data key="d2">3</data>
+</edge>
+<edge source="HUMAN_HEALTH" target="EVOLUTION">
+  <data key="d2">1</data>
+</edge>
+<edge source="MARINE" target="CLIMATE_CHANGE">
+  <data key="d2">27</data>
+</edge>
+<edge source="MARINE" target="SPECIES_DISTRIBUTIONS">
+  <data key="d2">7</data>
+</edge>
+<edge source="MARINE" target="BIODIVERSITY_SCIENCE">
+  <data key="d2">9</data>
+</edge>
+<edge source="MARINE" target="CONSERVATION">
+  <data key="d2">5</data>
+</edge>
+<edge source="MARINE" target="INVASIVES">
+  <data key="d2">9</data>
+</edge>
+<edge source="MARINE" target="EVOLUTION">
+  <data key="d2">3</data>
+</edge>
+<edge source="MARINE" target="BIOGEOGRAPHY">
+  <data key="d2">6</data>
+</edge>
+<edge source="MARINE" target="TAXONOMY">
+  <data key="d2">1</data>
+</edge>
+<edge source="MARINE" target="PHYLOGENETICS">
+  <data key="d2">1</data>
+</edge>
+<edge source="MARINE" target="FRESHWATER">
+  <data key="d2">3</data>
+</edge>
+<edge source="TAXONOMY" target="SPECIES_DISTRIBUTIONS">
+  <data key="d2">40</data>
+</edge>
+<edge source="TAXONOMY" target="EVOLUTION">
+  <data key="d2">20</data>
+</edge>
+<edge source="TAXONOMY" target="PHYLOGENETICS">
+  <data key="d2">19</data>
+</edge>
+<edge source="TAXONOMY" target="BIODIVERSITY_SCIENCE">
+  <data key="d2">13</data>
+</edge>
+<edge source="TAXONOMY" target="CITIZEN_SCIENCE">
+  <data key="d2">2</data>
+</edge>
+<edge source="TAXONOMY" target="INVASIVES">
+  <data key="d2">7</data>
+</edge>
+<edge source="TAXONOMY" target="BIOGEOGRAPHY">
+  <data key="d2">12</data>
+</edge>
+<edge source="TAXONOMY" target="FRESHWATER">
+  <data key="d2">2</data>
+</edge>
+<edge source="TAXONOMY" target="CONSERVATION">
+  <data key="d2">4</data>
+</edge>
+<edge source="TAXONOMY" target="DATA_MANAGEMENT">
+  <data key="d2">1</data>
+</edge>
+<edge source="TAXONOMY" target="CLIMATE_CHANGE">
+  <data key="d2">1</data>
+</edge>
+<edge source="PHYLOGENETICS" target="EVOLUTION">
+  <data key="d2">25</data>
+</edge>
+<edge source="PHYLOGENETICS" target="BIOGEOGRAPHY">
+  <data key="d2">43</data>
+</edge>
+<edge source="PHYLOGENETICS" target="CLIMATE_CHANGE">
+  <data key="d2">6</data>
+</edge>
+<edge source="PHYLOGENETICS" target="BIODIVERSITY_SCIENCE">
+  <data key="d2">2</data>
+</edge>
+<edge source="PHYLOGENETICS" target="CONSERVATION">
+  <data key="d2">6</data>
+</edge>
+<edge source="PHYLOGENETICS" target="INVASIVES">
+  <data key="d2">2</data>
+</edge>
+<edge source="PHYLOGENETICS" target="SPECIES_DISTRIBUTIONS">
+  <data key="d2">4</data>
+</edge>
+<edge source="PHYLOGENETICS" target="FRESHWATER">
+  <data key="d2">2</data>
+</edge>
+<edge source="EVOLUTION" target="BIOGEOGRAPHY">
+  <data key="d2">36</data>
+</edge>
+<edge source="EVOLUTION" target="BIODIVERSITY_SCIENCE">
+  <data key="d2">3</data>
+</edge>
+<edge source="EVOLUTION" target="CONSERVATION">
+  <data key="d2">17</data>
+</edge>
+<edge source="EVOLUTION" target="CLIMATE_CHANGE">
+  <data key="d2">19</data>
+</edge>
+<edge source="EVOLUTION" target="SPECIES_DISTRIBUTIONS">
+  <data key="d2">16</data>
+</edge>
+<edge source="EVOLUTION" target="ECOSYSTEM_SERVICES">
+  <data key="d2">3</data>
+</edge>
+<edge source="EVOLUTION" target="INVASIVES">
+  <data key="d2">13</data>
+</edge>
+<edge source="EVOLUTION" target="FRESHWATER">
+  <data key="d2">2</data>
+</edge>
+<edge source="BIOGEOGRAPHY" target="CONSERVATION">
+  <data key="d2">11</data>
+</edge>
+<edge source="BIOGEOGRAPHY" target="BIODIVERSITY_SCIENCE">
+  <data key="d2">8</data>
+</edge>
+<edge source="BIOGEOGRAPHY" target="SPECIES_DISTRIBUTIONS">
+  <data key="d2">7</data>
+</edge>
+<edge source="BIOGEOGRAPHY" target="INVASIVES">
+  <data key="d2">3</data>
+</edge>
+<edge source="BIOGEOGRAPHY" target="CLIMATE_CHANGE">
+  <data key="d2">9</data>
+</edge>
+<edge source="BIOGEOGRAPHY" target="FRESHWATER">
+  <data key="d2">2</data>
+</edge>
+<edge source="CLIMATE_CHANGE" target="INVASIVES">
+  <data key="d2">54</data>
+</edge>
+<edge source="CLIMATE_CHANGE" target="CONSERVATION">
+  <data key="d2">50</data>
+</edge>
+<edge source="CLIMATE_CHANGE" target="BIODIVERSITY_SCIENCE">
+  <data key="d2">3</data>
+</edge>
+<edge source="CLIMATE_CHANGE" target="SPECIES_DISTRIBUTIONS">
+  <data key="d2">3</data>
+</edge>
+<edge source="CLIMATE_CHANGE" target="FRESHWATER">
+  <data key="d2">5</data>
+</edge>
+<edge source="CLIMATE_CHANGE" target="ECOSYSTEM_SERVICES">
+  <data key="d2">5</data>
+</edge>
+<edge source="CLIMATE_CHANGE" target="CITIZEN_SCIENCE">
+  <data key="d2">1</data>
+</edge>
+<edge source="CONSERVATION" target="BIODIVERSITY_SCIENCE">
+  <data key="d2">18</data>
+</edge>
+<edge source="CONSERVATION" target="SPECIES_DISTRIBUTIONS">
+  <data key="d2">26</data>
+</edge>
+<edge source="CONSERVATION" target="INVASIVES">
+  <data key="d2">5</data>
+</edge>
+<edge source="CONSERVATION" target="FRESHWATER">
+  <data key="d2">5</data>
+</edge>
+<edge source="CONSERVATION" target="CITIZEN_SCIENCE">
+  <data key="d2">3</data>
+</edge>
+<edge source="CONSERVATION" target="ECOSYSTEM_SERVICES">
+  <data key="d2">1</data>
+</edge>
+<edge source="SPECIES_DISTRIBUTIONS" target="BIODIVERSITY_SCIENCE">
+  <data key="d2">12</data>
+</edge>
+<edge source="SPECIES_DISTRIBUTIONS" target="INVASIVES">
+  <data key="d2">11</data>
+</edge>
+<edge source="SPECIES_DISTRIBUTIONS" target="CITIZEN_SCIENCE">
+  <data key="d2">8</data>
+</edge>
+<edge source="SPECIES_DISTRIBUTIONS" target="ECOSYSTEM_SERVICES">
+  <data key="d2">1</data>
+</edge>
+<edge source="SPECIES_DISTRIBUTIONS" target="FRESHWATER">
+  <data key="d2">2</data>
+</edge>
+<edge source="INVASIVES" target="FRESHWATER">
+  <data key="d2">9</data>
+</edge>
+<edge source="INVASIVES" target="CITIZEN_SCIENCE">
+  <data key="d2">3</data>
+</edge>
+<edge source="INVASIVES" target="ECOSYSTEM_SERVICES">
+  <data key="d2">2</data>
+</edge>
+<edge source="BIODIVERSITY_SCIENCE" target="DATA_PAPER">
+  <data key="d2">1</data>
+</edge>
+<edge source="BIODIVERSITY_SCIENCE" target="FRESHWATER">
+  <data key="d2">1</data>
+</edge>
+<edge source="BIODIVERSITY_SCIENCE" target="CITIZEN_SCIENCE">
+  <data key="d2">1</data>
+</edge>
+<edge source="BIODIVERSITY_SCIENCE" target="DATA_MANAGEMENT">
+  <data key="d2">1</data>
+</edge>
+<edge source="FRESHWATER" target="CITIZEN_SCIENCE">
+  <data key="d2">1</data>
+</edge>
+</graph></graphml>
