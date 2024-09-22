@@ -2,7 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: linkLitToGbifId
+title: GbitLitAnalysis
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
@@ -11,31 +11,18 @@ authors:
   - given-names: Quentin
     family-names: Groom
     email: quentin.groom@plantentuinmeise.be
+    name-particle: Quentin
     affiliation: Meise Botanic Garden
     orcid: 'https://orcid.org/0000-0002-0596-5376'
 abstract: >-
-  A workflow for collecting, processing, and analysing
-  scientific literature data that cites data modilsed by the
-  Global Biodiversity Information Facility. The initial
-  script systematically queries the GBIF literature API to
-  retrieve and filter relevant, peer-reviewed publications,
-  storing the results for further analysis.  It then
-  processes each dataset through iterative downloading and
-  extraction processes, ensuring only pertinent information,
-  such as preserved specimen records, is retained.
-
-  The subsequent script focuses on topic analysis by
-  extracting thematic topics associated with each
-  publication and constructing a network graph to visualize
-  their co-occurrences. This network analysis highlights the
-  interrelationships between research themes within the
-  biodiversity literature, offering valuable insights into
-  research trends and the thematic structure of studies that
-  utilize GBIF data.
-keywords:
-  - GBIF
-  - provenence
-  - specimens
-  - citation
-  - use of specimens data
-license: MIT
+  This repository provides a Python script for analysis and
+  visualization of metadata from the Global Biodiversity
+  Information Facility (GBIF) API. It processes data from
+  CSV files, fetches metadata for DOIs, and generates a
+  variety of outputs, including detailed Markdown summaries,
+  PDFs, network graphs of keywords and topics, global
+  choropleth maps of researcher distributions, and word
+  clouds based on publication abstracts and keywords. The
+  script is designed to facilitate the exploration and
+  presentation of biodiversity data for research and
+  educational purposes.
